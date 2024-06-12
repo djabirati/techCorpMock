@@ -53,7 +53,7 @@ public class EmployeeTest {
 		 Employee mockEmployee = mock(Employee.class);
 		    when(mockEmployee.getFirstname()).thenReturn("John");
 		    when(mockEmployee.getLastname()).thenReturn("Doe");
-		    when(mockEmployee.getEmail()).thenReturn("joh.doe@example.com");
+		    when(mockEmployee.getEmail()).thenReturn("john.doe@example.com");
 		    when(mockEmployee.getOccupation()).thenReturn("Developer");
 		    when(mockEmployee.getHiringDate()).thenReturn(LocalDate.now());
 
